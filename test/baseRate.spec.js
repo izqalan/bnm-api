@@ -4,9 +4,9 @@ var baseRate = require('../lib/api/baseRate')
 
 describe('baseRate', function(){
 
-    it('should return json data', async function(){
+    it('should return object data', async function(){
         const result = await baseRate('bimb');
-        console.log(result)
+        // console.log(result)
         assert.typeOf(result, 'object')
     })
 
