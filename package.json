@@ -1,0 +1,24 @@
+{
+  "name": "my-bnm",
+  "version": "1.0.0",
+  "description": "Malaysia central bank JS api",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "bnm",
+    "bank",
+    "negara",
+    "malaysia"
+  ],
+  "author": "izqalan",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "fetch": "^1.1.0",
+    "mocha": "^6.2.2",
+    "node-fetch": "^2.6.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
