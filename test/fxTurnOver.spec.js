@@ -1,14 +1,16 @@
 var assert = require('chai').assert;
 
-var fxTurnOver = require('../lib/api/fxTurnOver')
-var fxTurnOverByDate = require('../lib/api/fxTurnOverByDate')
-var fxTurnOverByYearMonth = require('../lib/api/fxTurnOverByYearMonth')
+var fxTurnOver = require('../lib/api/fxTurnOver/fxTurnOver')
+var fxTurnOverByDate = require('../lib/api/fxTurnOver/fxTurnOverByDate')
+var fxTurnOverByYearMonth = require('../lib/api/fxTurnOver/fxTurnOverByYearMonth')
 
 describe('fxTurnOver', function(){
 
-    it('should return return object data', async function(){
+    this.timeout(5000);
 
-        const result = await fxTurnOver('2019-11-11');
+    it('should return object data', async function(){
+
+        const result = await fxTurnOver();
         // console.log(result)
         assert.typeOf(result, 'object')
 
@@ -40,9 +42,10 @@ describe('fxTurnOver', function(){
                 return 0;
             }
             if(i === result.data.length){
-                assert.isOk(result, 'data match')
+                assert.isOk(result, 'data matched')
             }
         }
+
 
     })
 })
