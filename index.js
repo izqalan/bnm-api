@@ -17,7 +17,7 @@ module.exports = {
     
     consumerAlert: require('./lib/api/consumerAlert/consumerAlert'),
 
-    itbSwap: require('./lib/api/interSwap/itbSwap'),
+    itbSwap: require('./lib/api/interSwap/itbSwap').default,
     itbSwapByDate: require('./lib/api/interSwap/itbSwapByDate'),
     itbSwapYearMonth: require('./lib/api/interSwap/itbSwapYearMonth'),
 
@@ -25,6 +25,9 @@ module.exports = {
     interestRateDate: require('./lib/api/interestRate/interestRateDate'),
     interestRateYearMonth: require('./lib/api/interestRate/interestRateYearMonth'),
 
+    interestVolume: require('./lib/api/interestVolume/interestVolume'),
+    interestVolDate: require('./lib/api/interestVolume/interestVolDate'),
+    interestVolYearMonth: require('./lib/api/interestVolume/interestVolYearMonth'),
     
 
 
