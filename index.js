@@ -28,7 +28,11 @@ module.exports = {
     interestVolume: require('./lib/api/interestVolume/interestVolume'),
     interestVolDate: require('./lib/api/interestVolume/interestVolDate'),
     interestVolYearMonth: require('./lib/api/interestVolume/interestVolYearMonth'),
-    
 
+    islamicRate: require('./lib/api/islamicRate/islamicRate'),
+    islamicRateDate: require('./lib/api/islamicRate/islamicRateDate'),
+    islamicRateYearMonth: require('./lib/api/islamicRate/islamicRateYearMonth'),
+
+    
 
 }
