@@ -19,6 +19,20 @@
     "fetch": "^1.1.0",
     "mocha": "^6.2.2",
     "node-fetch": "^2.6.0",
+    "request": "^2.88.0",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izqalan/bnm-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/izqalan/bnm-api/issues"
+  },
+  "homepage": "https://github.com/izqalan/bnm-api#readme"
 }

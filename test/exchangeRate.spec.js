@@ -23,10 +23,10 @@ describe('exchange rates', function(){
 
         var result = await exchangeRateCurrency(currencyCode);
         // console.log(result);
-        // console.log('THIS AF currency: '+ result.data.currency_code)
-        assert.typeOf(result, 'object')
+        // console.log('THIS AF currency: '+ result.data.currency_code);
+        assert.typeOf(result, 'object');
        
-        assert.equal(result.data.currency_code, currencyCode)
+        assert.equal(result.data.currency_code, currencyCode);
 
 
 
