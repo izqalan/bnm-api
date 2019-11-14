@@ -6,6 +6,10 @@ var fxTurnOverByYearMonth = require('../lib/api/fxTurnOver/fxTurnOverByYearMonth
 
 describe('fxTurnOver', function(){
 
+    before(function() {
+        this.skip();
+    });
+
     this.timeout(5000);
 
     it('should return object data', async function(){

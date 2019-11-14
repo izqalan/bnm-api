@@ -33,6 +33,11 @@ module.exports = {
     islamicRateDate: require('./lib/api/islamicRate/islamicRateDate'),
     islamicRateYearMonth: require('./lib/api/islamicRate/islamicRateYearMonth'),
 
-    
+    emas: require('./lib/api/kijangEmas/emas'),
+    emasByDate: require('./lib/api/kijangEmas/emasByDate'),
+    emasByYearMonth: require('./lib/api/kijangEmas/emasByYearMonth'),
 
+    opr: require('./lib/api/overnightPolicyRate/opr'),
+
+    
 }

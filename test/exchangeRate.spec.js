@@ -7,6 +7,10 @@ var xchgByYearDate = require('../lib/api/exchangeRate/xchgByYearMonth')
 
 describe('exchange rates', function(){
 
+    before(function() {
+        this.skip();
+      });
+
     this.timeout(5000);
 
     it('should return object data', async function(){

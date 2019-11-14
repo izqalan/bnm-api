@@ -4,7 +4,7 @@ var islamicRate = require('../lib/api/islamicRate/islamicRate')
 var islamicRateDate = require('../lib/api/islamicRate/islamicRateDate')
 var islamicRateYearMonth = require('../lib/api/islamicRate/islamicRateYearMonth')
 
-describe('interest rate', function(){
+describe('islamic interbank rate', function(){
 
     this.timeout(5000);
 

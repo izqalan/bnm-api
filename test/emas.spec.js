@@ -1,11 +1,10 @@
-var assert = require('chai').assert
+var assert = require('chai').assert;
 
-var interestVolume = require('../lib/api/interestVolume/interestVolume')
-var interestVolDate = require('../lib/api/interestVolume/interestVolDate')
-var interestVolYearMonth = require('../lib/api/interestVolume/interestVolYearMonth')
-    
+var emas = require('../lib/api/kijangEmas/emas')
+var emasByDate = require('../lib/api/kijangEmas/emasByDate')
+var emasByYearMonth = require('../lib/api/kijangEmas/emasByYearMonth')
 
-describe('interest volume', function(){
+describe('kijang emas', function(){
 
     before(function() {
         this.skip();
@@ -15,7 +14,7 @@ describe('interest volume', function(){
 
     it('should return object data', async function(){
 
-        const result = await interestVolume();
+        const result = await emas();
         // console.log(result);
         assert.typeOf(result, 'object')        
 
@@ -23,11 +22,11 @@ describe('interest volume', function(){
 
     it('should return object data by date', async function(){
 
-        var date = "2019-10-01";
-        const result = await interestVolDate(date);
+        var date = "2019-11-14";
+        const result = await emasByDate(date);
         assert.typeOf(result, 'object');
         // console.log(result.data.date)
-        assert.equal(result.data.date, '2019-10-01')
+        assert.equal(result.data.effective_date, date)
 
     })
 
@@ -36,11 +35,11 @@ describe('interest volume', function(){
         var year = '2019'
         var mon = '01'
 
-        const result = await interestVolYearMonth(year, mon);
+        const result = await emasByYearMonth(year, mon);
 
         assert.isObject(result,'result is an object');
         for(var i = 0; i < result.data.length; i++){
-            var d = result.data[i].date;
+            var d = result.data[i].effective_date;
             if( d.substr(0,7) !== '2019-01'){
                 console.error('ERROR')
                 assert.fail('mismatch data')
@@ -53,5 +52,6 @@ describe('interest volume', function(){
 
 
     })
+    
 
 })

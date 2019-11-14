@@ -6,6 +6,10 @@ var interestRateYearMonth = require('../lib/api/interestRate/interestRateYearMon
 
 describe('interest rate', function(){
 
+    before(function() {
+        this.skip();
+    });
+
     this.timeout(5000);
 
     it('should return object data', async function(){
