@@ -3,6 +3,7 @@
 module.exports = {
 
     // api
+    handler: require('./lib/api/handler'),
     baseRate: require('./lib/api/baseRate'),
     
     fxTurnOver: require('./lib/api/fxTurnOver/fxTurnOver'),
