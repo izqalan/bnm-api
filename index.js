@@ -19,7 +19,13 @@ module.exports = {
 
     itbSwap: require('./lib/api/interSwap/itbSwap'),
     itbSwapByDate: require('./lib/api/interSwap/itbSwapByDate'),
-    itbSwapYearMonth: require('./lib/api/interSwap/itbSwapYearMonth')
+    itbSwapYearMonth: require('./lib/api/interSwap/itbSwapYearMonth'),
+
+    interestRate: require('./lib/api/interestRate/interestRate'),
+    interestRateDate: require('./lib/api/interestRate/interestRateDate'),
+    interestRateYearMonth: require('./lib/api/interestRate/interestRateYearMonth'),
+
+    
 
 
 }
