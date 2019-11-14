@@ -11,8 +11,8 @@ module.exports = {
     fxTurnOverByYearMonth: require('./lib/api/fxTurnOver/fxTurnOverByYearMonth'),
     
     exchangeRate: require('./lib/api/exchangeRate/exchangeRate'),
-    exchangeRateCurrency: require('./lib/api/exchangeRate/exchangeRateCurrency'),
-    exchangeRateByDate: require('./lib/api/exchangeRate/exchangeRateByDate'),
+    xchgRateCurrency: require('./lib/api/exchangeRate/xchgRateCurrency'),
+    xchgRateByDate: require('./lib/api/exchangeRate/xchgRateByDate'),
     xchgByYearMonth: require('./lib/api/exchangeRate/xchgByYearMonth'),
     
     consumerAlert: require('./lib/api/consumerAlert/consumerAlert'),
