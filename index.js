@@ -16,6 +16,10 @@ module.exports = {
     xchgByYearMonth: require('./lib/api/exchangeRate/xchgByYearMonth'),
     
     consumerAlert: require('./lib/api/consumerAlert/consumerAlert'),
-    itbSwap: require('./lib/api/interSwap/itbSwap')
+
+    itbSwap: require('./lib/api/interSwap/itbSwap'),
+    itbSwapByDate: require('./lib/api/interSwap/itbSwapByDate'),
+    itbSwapYearMonth: require('./lib/api/interSwap/itbSwapYearMonth')
+
 
 }
