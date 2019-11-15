@@ -7,9 +7,9 @@ var xchgByYearDate = require('../lib/api/exchangeRate/xchgByYearMonth')
 
 describe('exchange rates', function(){
 
-    before(function() {
-        this.skip();
-      });
+    // before(function() {
+    //     this.skip();
+    //   });
 
     this.timeout(5000);
 
@@ -29,7 +29,7 @@ describe('exchange rates', function(){
         // console.log(result);
         // console.log('THIS AF currency: '+ result.data.currency_code);
         assert.typeOf(result, 'object');
-       
+        console.log('Response code: '+result.code)
         assert.equal(result.data.currency_code, currencyCode);
 
 
