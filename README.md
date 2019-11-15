@@ -34,7 +34,7 @@ async function run(){
 run().then(res => console.log(res))
 ```
 
-_For more examples and usage, please refer to the [https://github.com/izqalan/bnm-api/wiki][Wiki]._
+_For more examples and usage, please refer to the [wiki]: https://github.com/izqalan/bnm-api/wiki._
 
 ## Development setup
 
@@ -67,4 +67,4 @@ npm run test
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+[wiki]: https://github.com/izqalan/bnm-api/wiki
