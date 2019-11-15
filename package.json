@@ -1,6 +1,6 @@
 {
   "name": "my-bnm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Malaysia central bank JS api",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "malaysia"
   ],
   "author": "izqalan",
-  "license": "GNU General Public License v3.0",
+  "license": "GPL-3.0",
   "dependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.2.2",

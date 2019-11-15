@@ -1,6 +1,6 @@
 var assert = require('chai').assert;
 
-var baseRate = require('../lib/api/baseRate')
+var baseRate = require('../lib/api/baseRate/baseRate')
 
 
 describe('baseRate', function(){

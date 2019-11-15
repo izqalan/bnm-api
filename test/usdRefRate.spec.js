@@ -5,6 +5,10 @@ var usdRateYearMonth = require('../lib/api/usdRefRate/usdRateYearMonth')
 
 describe('USD reference rate', function(){
 
+    before(function() {
+        this.skip();
+    });
+
     this.timeout(5000);
 
     it('should return object data', async function(){

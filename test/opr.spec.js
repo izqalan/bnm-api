@@ -4,6 +4,10 @@ var opr = require('../lib/api/overnightPolicyRate/opr')
 
 describe('overnight policy rate', function(){
 
+    before(function() {
+        this.skip();
+    });
+
     this.timeout(5000);
 
     it('should return object data', async function(){

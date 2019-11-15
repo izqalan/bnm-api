@@ -5,6 +5,10 @@ var intradayRateYearMonth = require('../lib/api/usdIntradayRate/intradayRateYear
 
 describe('USD intraday rate', function(){
 
+    before(function() {
+        this.skip();
+    });
+
     this.timeout(5000);
 
     it('should return object data', async function(){
