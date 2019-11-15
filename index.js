@@ -44,7 +44,9 @@ module.exports = {
 
     intradayRate: require('./lib/api/usdIntradayRate/usdIntradayRate'),
     intradayRateYearMonth: require('./lib/api/usdIntradayRate/intradayRateYearMon'),
-    
+
+    usdRate: require('./lib/api/usdRefRate/usdRate'),
+    usdRateYearMonth: require('./lib/api/usdRefRate/usdRateYearMonth'),
 
 
 }
