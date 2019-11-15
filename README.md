@@ -34,7 +34,7 @@ async function run(){
 run().then(res => console.log(res))
 ```
 
-_For more examples and usage, please refer to the [wiki]: https://github.com/izqalan/bnm-api/wiki._
+_For more examples and usage, please refer to the [wiki](https://github.com/izqalan/bnm-api/wiki)._
 
 ## Development setup
 
