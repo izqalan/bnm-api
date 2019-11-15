@@ -21,7 +21,6 @@ npm install my-bnm
 #### Import
 ```
 var bnm = require('my-bnm')
-
 ```
 The library can only be used in `async` methods or with `.then()`.
 ```
@@ -35,7 +34,7 @@ async function run(){
 run().then(res => console.log(res))
 ```
 
-_For more examples and usage, please refer to the [Wiki][https://github.com/izqalan/bnm-api/wiki]._
+_For more examples and usage, please refer to the [https://github.com/izqalan/bnm-api/wiki][Wiki]._
 
 ## Development setup
 
