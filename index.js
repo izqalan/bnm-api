@@ -39,5 +39,12 @@ module.exports = {
 
     opr: require('./lib/api/overnightPolicyRate/opr'),
 
+    renminbiDeposit: require('./lib/api/renminbi/renminbiDeposit'),
+    renminbiForwardPrice: require('./lib/api/renminbi/renminbiForwardPrice'),
+
+    intradayRate: require('./lib/api/usdIntradayRate/usdIntradayRate'),
+    intradayRateYearMonth: require('./lib/api/usdIntradayRate/intradayRateYearMon'),
     
+
+
 }
