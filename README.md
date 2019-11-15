@@ -3,6 +3,7 @@
 # BNM Open API Node Module
 > Javascript library of Bank Negara open API.
 
+[![NPM](https://nodei.co/npm/my-bnm.png)](https://nodei.co/npm/my-bnm/)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 
@@ -49,6 +50,8 @@ npm run test
 
 * 1.0.1
     * Initial release
+    * 1.0.2
+        * Docs
 
 ## Contributing
 
