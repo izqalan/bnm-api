@@ -13,7 +13,7 @@
     "malaysia"
   ],
   "author": "izqalan",
-  "license": "MIT",
+  "license": "GNU General Public License v3.0",
   "dependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.2.2",
