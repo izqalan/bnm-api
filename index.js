@@ -4,7 +4,7 @@ module.exports = {
 
     // api
     handler: require('./lib/api/handler'),
-    baseRate: require('./lib/api/baseRate'),
+    baseRate: require('./lib/api/baseRate/baseRate'),
     
     fxTurnOver: require('./lib/api/fxTurnOver/fxTurnOver'),
     fxTurnOverByDate: require('./lib/api/fxTurnOver/fxTurnOverByDate'),
