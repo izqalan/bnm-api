@@ -17,8 +17,10 @@
   "license": "GPL-3.0",
   "dependencies": {
     "chai": "^4.2.0",
+    "esm": "^3.2.25",
     "mocha": "^6.2.2",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0"
   },
   "directories": {
     "lib": "lib",

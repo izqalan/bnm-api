@@ -1,6 +1,6 @@
 
 
-# BNM Open API Node Module
+# BNM Open API library
 > Javascript library of Bank Negara open API.
 
 [![NPM](https://nodei.co/npm/my-bnm.png)](https://nodei.co/npm/my-bnm/)
