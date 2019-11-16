@@ -1,7 +1,7 @@
 
 
-# BNM Open API Node Module
-> Javascript library of Bank Negara open API.
+# BNM Open API wrapper
+> Javascript warapper for Bank Negara open API.
 
 [![NPM](https://nodei.co/npm/my-bnm.png)](https://nodei.co/npm/my-bnm/)
 
@@ -22,7 +22,7 @@ npm install my-bnm
 ```
 var bnm = require('my-bnm')
 ```
-The library can only be used in `async` methods or with `.then()`.
+The wrapper can only be used in `async` methods or with `.then()`.
 ```
 bnm.function(value).then(response => console.log(response))
 ```
@@ -45,13 +45,6 @@ git clone https://github.com/izqalan/bnm-api
 npm install
 npm run test
 ```
-
-## Release History
-
-* 1.0.1
-    * Initial release
-    * 1.0.2
-        * Docs
 
 ## Contributing
 
