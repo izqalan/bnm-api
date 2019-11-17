@@ -1,7 +1,7 @@
 var assert = require('chai').assert;
 
 var exchangeRate = require('../lib/api/exchangeRate/exchangeRate')
-var xchgRateCurrency = require('../lib/api/exchangeRate/xchgRateCurrency')
+var xchgRate = require('../lib/api/exchangeRate/xchgRateCurrency')
 var xchgRateByDate = require('../lib/api/exchangeRate/xchgRateByDate')
 var xchgByYearDate = require('../lib/api/exchangeRate/xchgByYearMonth')
 
@@ -25,7 +25,7 @@ describe('exchange rates', function(){
 
         var currencyCode = 'USD'
 
-        var result = await xchgRateCurrency(currencyCode);
+        var result = await xchgRate(currencyCode);
         // console.log(result);
         // console.log('THIS AF currency: '+ result.data.currency_code);
         assert.typeOf(result, 'object');
