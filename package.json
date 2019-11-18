@@ -1,6 +1,6 @@
 {
   "name": "my-bnm",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Bank Negara Malaysia JS api",
   "main": "index.js",
   "scripts": {
