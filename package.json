@@ -1,7 +1,7 @@
 {
-  "name": "my-bnm",
-  "version": "1.0.4",
-  "description": "Bank Negara Malaysia JS api",
+  "name": "bnm-api",
+  "version": "1.0.0",
+  "description": "Bank Negara Malaysia JS wrapper",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -14,7 +14,7 @@
     "api"
   ],
   "author": "izqalan",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "dependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.2.2",
