@@ -3,7 +3,7 @@
 # BNM Open API wrapper
 > Javascript warapper for Bank Negara open API. (previously known as my-bnm)
 
-[![NPM](https://nodei.co/npm/my-bnm.png)](https://nodei.co/npm/bnm-api/)
+[![NPM](https://nodei.co/npm/bnm-api.png)](https://nodei.co/npm/bnm-api/)
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 

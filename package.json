@@ -1,7 +1,7 @@
 {
   "name": "bnm-api",
   "version": "1.0.1",
-  "description": "Bank Negara Malaysia JS wrapper",
+  "description": "Bank Negara Malaysia JS API",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -11,7 +11,8 @@
     "bank",
     "negara",
     "malaysia",
-    "api"
+    "api",
+    "wrapper"
   ],
   "author": "izqalan",
   "license": "MIT",
