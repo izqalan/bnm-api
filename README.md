@@ -3,7 +3,7 @@
 # BNM Open API wrapper
 > Javascript warapper for Bank Negara open API. (previously known as my-bnm)
 
-[![NPM](https://nodei.co/npm/my-bnm.png)](https://nodei.co/npm/my-bnm/)
+[![NPM](https://nodei.co/npm/my-bnm.png)](https://nodei.co/npm/bnm-api/)
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
@@ -20,7 +20,7 @@ npm install bnm-api
 ## Usage example
 #### Import
 ```
-var bnm = require('my-bnm')
+var bnm = require('bnm-api')
 ```
 The wrapper can only be used in `async` methods or with `.then()`.
 ```
