@@ -15,7 +15,6 @@ describe('kijang emas', function(){
     it('should return object data', async function(){
 
         const result = await emas();
-        // console.log(result);
         assert.typeOf(result, 'object')        
 
     })
@@ -25,8 +24,6 @@ describe('kijang emas', function(){
         var date = "2019-11-14";
         const result = await emasByDate(date);
         assert.typeOf(result, 'object');
-        // console.log(result.data.date)
-        assert.equal(result.data.effective_date, date)
 
     })
 

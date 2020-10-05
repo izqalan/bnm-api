@@ -29,7 +29,6 @@ describe('exchange rates', function(){
         // console.log(result);
         // console.log('THIS AF currency: '+ result.data.currency_code);
         assert.typeOf(result, 'object');
-        console.log('Response code: '+result.code)
         assert.equal(result.data.currency_code, currencyCode);
 
 
@@ -54,11 +53,11 @@ describe('exchange rates', function(){
     it('param should matched data', async function(){
 
         var currencyCode = 'JPY'
-        var year = '2018'
+        var year = '2020'
         var month = '01'
 
         const result = await xchgByYearDate(currencyCode, year, month);
-
+console.log(result)
         for(var i = 0; i < result.data.rate.length; i++){
             var d = result.data.rate[i].date;
             if( d.substr(0,7) !== year+'-'+month ){
