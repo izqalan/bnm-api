@@ -1,16 +1,13 @@
 var assert = require('chai').assert;
 
-var baseRate = require('../lib/api/baseRate/baseRate')
+var baseRate = require('../lib/api/baseRate/baseRate');
 
-
-describe('baseRate', function(){
-
+describe('baseRate', function () {
     this.timeout(5000);
 
-    it('should return object data', async function(){
+    it('should return object data', async function () {
         const result = await baseRate('bimb');
         // console.log(result)
-        assert.typeOf(result, 'object')
-    })
-
-})
+        assert.typeOf(result, 'object');
+    });
+});

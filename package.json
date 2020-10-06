@@ -1,37 +1,50 @@
 {
-  "name": "bnm-api",
-  "version": "1.0.1",
-  "description": "Bank Negara Malaysia JS API",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "keywords": [
-    "bnm",
-    "bank",
-    "negara",
-    "malaysia",
-    "api",
-    "wrapper"
-  ],
-  "author": "izqalan",
-  "license": "MIT",
-  "dependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.2.2",
-    "node-fetch": "^2.6.0"
-  },
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/izqalan/bnm-api.git"
-  },
-  "bugs": {
-    "url": "https://github.com/izqalan/bnm-api/issues"
-  },
-  "homepage": "https://github.com/izqalan/bnm-api#readme"
+    "name": "bnm-api",
+    "version": "1.0.1",
+    "description": "Bank Negara Malaysia JS API",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "prettier": "prettier --write --ignore-unknown test lib index.js"
+    },
+    "keywords": [
+        "bnm",
+        "bank",
+        "negara",
+        "malaysia",
+        "api",
+        "wrapper"
+    ],
+    "author": "izqalan",
+    "license": "MIT",
+    "dependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^6.2.2",
+        "node-fetch": "^2.6.0"
+    },
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "devDependencies": {
+        "husky": "^4.3.0",
+        "lint-staged": "^10.4.0",
+        "prettier": "2.1.2"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "**/*": "npm run prettier"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/izqalan/bnm-api.git"
+    },
+    "bugs": {
+        "url": "https://github.com/izqalan/bnm-api/issues"
+    },
+    "homepage": "https://github.com/izqalan/bnm-api#readme"
 }
