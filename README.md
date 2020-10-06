@@ -1,7 +1,7 @@
 
 
 # BNM Open API wrapper
-> Javascript warapper for Bank Negara open API. (previously known as my-bnm)
+> Javascript wrapper for [Bank Negara open API](https://api.bnm.gov.my/portal). (previously known as my-bnm)
 
 [![NPM](https://nodei.co/npm/bnm-api.png)](https://nodei.co/npm/bnm-api/)
 
