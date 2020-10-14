@@ -30,7 +30,7 @@ describe('exchange rates', function () {
 
     it('should return object, currency and date matches data', async function () {
         var currencyCode = 'EUR';
-        var date = '2019-10-10';
+        var date = '2020-10-14';
 
         const result = await xchgRateByDate(currencyCode, date);
 
@@ -42,10 +42,10 @@ describe('exchange rates', function () {
     it('param should matched data', async function () {
         var currencyCode = 'JPY';
         var year = '2020';
-        var month = '01';
+        var month = '10';
 
         const result = await xchgByYearDate(currencyCode, year, month);
-        console.log(result);
+        // console.log(result);
         for (var i = 0; i < result.data.rate.length; i++) {
             var d = result.data.rate[i].date;
             if (d.substr(0, 7) !== year + '-' + month) {
